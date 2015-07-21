@@ -83,4 +83,4 @@ production:
   <<: *default
   database: libtyfi_production
   username: libtyfi
-  password: <%= ENV['LIBTYFI_DATABASE_PASSWORD'] %>
+  password: <%= ENV['libtyfi_DATABASE_PASSWORD'] %>
